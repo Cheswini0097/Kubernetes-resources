@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: multi-conatiner
 spec:
-  conatiners:
+  containers:
   - name: nginx
     image: nginx
   - name: ubuntu
