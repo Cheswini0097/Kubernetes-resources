@@ -17,7 +17,7 @@ metadata:
 spec:
    selector:
    project: expense
-   moduele: backend
+   module: backend
    envinorment: dev
 ports:
    - name: nginx-svc-port
