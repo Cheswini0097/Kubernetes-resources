@@ -11,6 +11,7 @@ spec:
   - name: nginx
     image: nginx
 kind: Service
+apiVersion: v1
 metadata:
    name: nginx
 spec:
