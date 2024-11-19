@@ -12,14 +12,14 @@ spec:
        app: nginx
        tier: frontend
 template:
-   metadata:
-      labels:
-        tier: frontend
-        app: nginx
+  metadata:
+    labels:
+      tier: frontend
+      app: nginx
 spec:
-   containers:
-   - name: nginx
-     image: nginx
+  containers:
+  - name: nginx
+    image: nginx
 ---
 kind: Service
 apiVersion: v1
