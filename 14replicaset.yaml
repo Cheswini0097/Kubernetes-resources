@@ -4,7 +4,7 @@ metadata:
    name: nginx
    labels:
      app: nginx
-     tier: fronted
+     tier: frontend
 spec:
   replicas: 3
   selectors:
@@ -20,4 +20,3 @@ spec:
 conatiners:
 - name: nginx
   image: nginx
-                  
