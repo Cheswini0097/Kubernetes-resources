@@ -11,7 +11,7 @@ spec:
      matchlabels:
         app: nginx
         tier: frontend
-templete:
+template:
    metadata:
      labels:
        app: nginx
