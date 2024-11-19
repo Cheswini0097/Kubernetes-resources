@@ -8,10 +8,10 @@ metadata:
 spec:
   replicas: 3
   selector:
-    matchlabels:
+    matchLabels:
        app: nginx
        tier: frontend
-templete:
+template:
    metadata:
       labels:
         tier: frontend
